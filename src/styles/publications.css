@@ -1,0 +1,21 @@
+.containerpb{
+	margin-top: 100px;
+	padding-top: 50px;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	z-index: 0;
+}
+.col{
+    border: none;
+}
+p{
+    color: #fff;
+}
+
+.p-3{
+    transition: transform 0.7s;
+}
+.p-3:hover {
+    transform: translateY(-20px);
+  }

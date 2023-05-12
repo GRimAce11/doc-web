@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.carocard{
+	z-index: 1;
+}
+.carousel-indicators{
+	z-index: 4;
+}
+button{
+	z-index: 5;
+}
+.carousel-item{
+	z-index: 2;
+	transition: transform 1s ease-in-out;
+}
+
+.card-img-overlay{
+	z-index: 3;
+}
+
+.containerrch{
+	margin-top: 100px;
+	padding-top: 100px;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	z-index: 0;
+}
+
+.card{
+	  /* background-image: url('/assets/images/hi.png'); */
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: background-image 1s ease-in-out;
+}
